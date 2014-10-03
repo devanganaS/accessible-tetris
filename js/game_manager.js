@@ -69,7 +69,7 @@ GameManager.prototype.actuate = function(){
         for(var c = 0; c < _grid.columns; c++){
             if (_grid.cells[r][c] == 1){
             	//this fills in the color
-                context.fillStyle="#FFF000";
+                context.fillStyle="#FF0000";
                 context.fillRect(20 * c, 20 * (r - 2), 20, 20);
                 context.strokeStyle="#FFFFFF";
                 context.strokeRect(20 * c, 20 * (r - 2), 20, 20);
@@ -87,7 +87,7 @@ GameManager.prototype.actuate = function(){
     for(var r = 0; r < next.dimension; r++){
         for(var c = 0; c < next.dimension; c++){
             if (next.cells[r][c] == 1){
-                context.fillStyle="#FFF000";
+                context.fillStyle="#FF0000";
                 context.fillRect(xOffset + 20 * c, yOffset + 20 * r, 20, 20);
                 context.strokeStyle="#FFFFFF";
                 context.strokeRect(xOffset + 20 * c, yOffset + 20 * r, 20, 20);
