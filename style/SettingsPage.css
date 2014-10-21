@@ -1,0 +1,83 @@
+html{
+	background-color: black;
+}
+#menu{
+	position: fixed;
+}
+#background img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+#accessibility{
+	position: fixed;
+	left: 32%;
+	top: 35%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#accessibility img{
+	height: 20px;
+}
+#accessibility:hover{
+	border: solid;
+	border-color: white;
+}
+
+#customize{
+	position: fixed;
+	left: 32%;
+	top: 48%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#customize img{
+	height: 20px;
+}
+#customize:hover{
+	border: solid;
+	border-color: white;
+}
+
+#difficulty{
+	position: fixed;
+	left: 32%;
+	top: 61%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#difficulty img{
+	height: 20px;
+}
+#difficulty:hover{
+	border: solid;
+	border-color: white;
+}
+
+
+#back{
+	position: fixed;
+	left: 10%;
+	top:80%;
+	padding-top: 2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#back:hover{
+	border:solid;
+	border-color: white;
+}

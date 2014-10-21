@@ -1,0 +1,61 @@
+html{
+	background-color: black;
+}
+#menu{
+	position: fixed;
+}
+#background img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#twoswitch{
+	position: fixed;
+	left: 32%;
+	top: 35%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#twoswitch img{
+	height: 20px;
+}
+#twoswitch:hover{
+	border: solid;
+	border-color: white;
+}
+
+#keyboard{
+	position: fixed;
+	left: 32%;
+	top: 48%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#keyboard img{
+	height: 20px;
+}
+#keyboard:hover{
+	border: solid;
+	border-color: white;
+}
+
+#back{
+	position: fixed;
+	left: 10%;
+	top:80%;
+	padding-top: 2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#back:hover{
+	border:solid;
+	border-color: white;
+}
