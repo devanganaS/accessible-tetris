@@ -1,0 +1,76 @@
+html{
+	background-color: black;
+}
+#menu{
+	position: fixed;
+}
+#background img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#start{
+	position: fixed;
+	left: 15%;
+	top: 51%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#start img{
+	height: 40px;
+}
+
+#start:hover{
+	border: solid;
+	border-color: white;	
+}
+
+#settings{
+	position: fixed;
+	left: 25%;
+	top: 61%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#settings img{
+	height: 40px;
+}
+
+#settings:hover{
+	border: solid;
+	border-color: white;	
+}
+
+#credits{
+	position: fixed;
+	left: 35%;
+	top: 71%;
+	max-height: 900px;
+	max-width:900px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#credits img{
+	height: 40px;
+}
+
+#credits:hover{
+	border: solid;
+	border-color: white;	
+}
+
+
