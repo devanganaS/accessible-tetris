@@ -1,0 +1,24 @@
+html{
+    background-color: black;
+}
+#menu{
+    position: fixed;
+}
+#background img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#back{
+    position: fixed;
+    left: 10%;
+    top:80%;
+    padding-top: 2px;
+    padding-left:5px;
+    padding-right:5px;
+}
+#back:hover{
+    border:solid;
+    border-color: white;
+}
