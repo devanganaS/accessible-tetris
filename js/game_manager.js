@@ -9,6 +9,12 @@ function GameManager() {
 	this.gravityUpdater.skipping = this.aiActive;
 	this.gravityUpdater.onUpdate(function() {
 		self.applyGravity();
+		sleep(400);
+		function sleep(miliseconds){
+			var currentTime=new Date().getTime();
+			while(currentTime+miliseconds >= new Date().getTime()){
+			}
+		}
 		self.actuate();
 	});
 	var self = this;
@@ -113,34 +119,39 @@ GameManager.prototype.applyGravity = function() {
 	}
 };
 
-GameManager.prototype.drop = function() {
-	while (this.grid.canMoveDown(this.workingPiece)) {
-		this.workingPiece.row++;
-	}
-};
-
-GameManager.prototype.moveLeft = function() {
-	if (this.grid.canMoveLeft(this.workingPiece)) {
-		this.workingPiece.column--;
-	}
-};
-
-GameManager.prototype.moveRight = function() {
-	if (this.grid.canMoveRight(this.workingPiece)) {
-		this.workingPiece.column++;
-	}
-};
-
-GameManager.prototype.rotate = function() {
-	var offset = this.grid.rotateOffset(this.workingPiece);
-	if (offset != null) {
-		this.workingPiece.rotate(1);
-		this.workingPiece.row += offset.rowOffset;
-		this.workingPiece.column += offset.columnOffset;
-	}
-};
 
 GameManager.prototype.aiMove = function() {
 	this.workingPiece = this.ai.best(this.grid, this.workingPieces, 0).piece;
 };
+
+
+//These are all removed for the watch portion of the game;
+
+// GameManager.prototype.drop = function() {
+// 	while (this.grid.canMoveDown(this.workingPiece)) {
+// 		this.workingPiece.row++;
+// 	}
+// };
+
+// GameManager.prototype.moveLeft = function() {
+// 	if (this.grid.canMoveLeft(this.workingPiece)) {
+// 		this.workingPiece.column--;
+// 	}
+// };
+
+// GameManager.prototype.moveRight = function() {
+// 	if (this.grid.canMoveRight(this.workingPiece)) {
+// 		this.workingPiece.column++;
+// 	}
+// };
+
+// GameManager.prototype.rotate = function() {
+// 	var offset = this.grid.rotateOffset(this.workingPiece);
+// 	if (offset != null) {
+// 		this.workingPiece.rotate(1);
+// 		this.workingPiece.row += offset.rowOffset;
+// 		this.workingPiece.column += offset.columnOffset;
+// 	}
+// };
+
 
