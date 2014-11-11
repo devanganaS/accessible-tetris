@@ -6,8 +6,13 @@
 
 		<title>Play Tetris</title>
 
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 		<link href="style/HomePage.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="jquery.cookie.js"></script>
+		<script type="text/javascript">
+			$.cookie('difficulty', 'watch', {expires:7});
+			alert($.cookie());
+		</script>
 	</head>
 
 	<body>

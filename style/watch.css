@@ -14,8 +14,10 @@ hr {
 
 .container {
 	width: 350px;
-	position: absolute;
-	margin-left: 40%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	margin-top: 10%;
 }
 

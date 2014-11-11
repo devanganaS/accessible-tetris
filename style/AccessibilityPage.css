@@ -59,3 +59,12 @@ html{
 	border:solid;
 	border-color: white;
 }
+#keyboard:active{
+	border: solid;
+	border-color: white;
+}
+
+#twoswitch:active{
+	border: solid;
+	border-color: white;
+}
