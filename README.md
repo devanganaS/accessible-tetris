@@ -1,4 +1,0 @@
-accessible-tetris
-=================
-
-Accessible Tetris

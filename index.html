@@ -7,8 +7,8 @@
 		<title>Play Tetris</title>
 
 		<link href="style/HomePage.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
 		<script type="text/javascript">
 			$.cookie('difficulty', 'watch', {expires:7});
 			alert($.cookie());
@@ -17,17 +17,17 @@
 
 	<body>
 		<div id='background'>
-			<img src='Homescreenblank.jpg' />
+			<img src='Images/Homescreenblank.jpg' />
 		</div>
 		<div id="menu">
 			<div id="start" onclick="location.href='watch.html'">
-				<img src='Starttext.jpg' />
+				<img src='Images/Starttext.jpg' />
 			</div>
 			<div id="settings" onclick="location.href='SettingsPage.html'">
-				<img src="Settingstext.jpg" />
+				<img src="Images/Settingstext.jpg" />
 			</div>
 			<div id="credits" onclick="location.href='credits.html'">
-                <img src="creditstext.jpg"/>
+                <img src="Images/creditstext.jpg"/>
 			</div>
 		</div>
 	</body>
